@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Inkwell</title>
-    <meta property="og:url" content="https://gurayozgur.github.io/inkwell/"/>
+    <title>My Blog</title>
   </head>
   <body>
-    <p>Under construction...</p>
+    <div id="content"></div>
+    <script>
+      // Read the contents of the Markdown files in the directory
+      fetch('gurayozgur.github.io/inkwell/20230111-deneme.md')
+        .then(response => response.text())
+        .then(text => {
+          // Convert the Markdown to HTML
+          const markdownConverter = new showdown.Converter();
+          const html = markdownConverter.makeHtml(text);
+          // Insert the HTML into the page
+          document.getElementById('content').innerHTML = html;
+        });
+    </script>
   </body>
 </html>
