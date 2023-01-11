@@ -1,17 +1,9 @@
-# updated website
+# Personal Webpage of Guray Ozgur
 
-This repo is built on a fork of **Jekyll Now** from [this repository](https://github.com/barryclark/jekyll-now). **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
+Hi, I'm Guray! Welcome to my personal webpage, where I share my passion for Machine Learning, Artificial Intelligence, Signal Processing, and Robotics. I'm currently an M.Sc. student in Machine Learning at the Eberhard Karls University of Tübingen, where I am diving deep into the exciting world of AI and ML. My goal is to become a leading researcher and educator in these fields and make a real impact on the world.
 
-The website design is just a modification of [Jon Barron's website](https://jonbarron.info/) and is converted for my own use, re-purposing my old markdown posts. **Feel free to use template for your own purposes**, but please respect copyright for all the images/content in my `images`, `pdfs`, `_posts` folders. 
+On this website, you'll find a detailed CV that gives an insight into my professional experience and qualifications, as well as a collection of cheat sheets and tutorials that I've created to help others learn about the latest and greatest in AI and ML. I also have a blog where I share my thoughts and musings on the industry, as well as a portfolio of my projects in the field.
 
+But that's not all. I'm always looking for new challenges and opportunities to grow, whether it's learning a new algorithm or taking on a new research project. So, if you're looking for inspiration or just want to have a chat about AI and ML, feel free to drop me an email or connect with me on social media.
 
-
-## issues
-* In general, jekyll will try to build a full page for every post. I skip that by forcing `permalink: /`. This creates multiple entries in sitemap.xml for index.html but is otherwise fine. 
-* If you want multiple paragraphs, consider using `excerpt_separator: <!--more-->` in `_config.yml`, for my own use I didn't need this. 
-* My own posts have lots of extra stuff left over from my old jekyll design ("author", long descriptions, etc.), feel free to ignore them
-* I use thumbnails, so I can upload arbitrary sized images but then only display small ones. The `_make_thumbnails.sh` script generates them and the html template looks in `tn/` for all images. 
-* I have three categories of post with slightly differerent formatting, so changing sizing requires edits in multiple paces. 
-* If you use this, I'd appreciate a link back either to this repo or my personal website so others can find this too. 
-
-## Personal Webpage of Guray Ozgur
+As the field of AI and ML is rapidly evolving, I believe that the best way to predict the future is to create it. I am eager to join forces with like-minded individuals and organizations to shape the future and make a real impact.
