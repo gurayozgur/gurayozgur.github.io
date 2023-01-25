@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Blog</title>
+    
+    <title>Inkwell</title>
+     <style>
+         h1 {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  font-display: auto;
+  text-align: center;
+  padding: 0px;
+  margin-block-start: 14px;
+  margin-block-end: 14px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+    </style>
   </head>
   <body>
-    <div id="content"></div>
-    <script>
-      // Read the contents of the Markdown files in the directory
-      fetch('gurayozgur.github.io/inkwell/20230111-deneme.md')
-        .then(response => response.text())
-        .then(text => {
-          // Convert the Markdown to HTML
-          const markdownConverter = new showdown.Converter();
-          const html = markdownConverter.makeHtml(text);
-          // Insert the HTML into the page
-          document.getElementById('content').innerHTML = html;
-        });
-    </script>
+     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <tr style="padding:0px">
+        <td style="padding:2.5%;width:60%;vertical-align:middle">
+          <h1>
+            Inkwell
+          </h1>
+        </td>
+      </tr>
+    </table>
+   <ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
   </body>
 </html>
