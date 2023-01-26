@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Anlamsız Acelelikler"
+date: 2022-11-15
+---
+
 # Anlamsız Acelelikler
 
 ## Reutlingen, 15.11.2022
