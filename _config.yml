@@ -55,7 +55,7 @@ url: "http://gurayozgur.github.io" # the base hostname & protocol for your site
 #
 
 #permalink: /:title/
-permalink: /
+permalink: /:categories/:year/:month/:day/:title.html
 
 
 # The release of Jekyll Now that you're using
@@ -79,7 +79,11 @@ sass:
 plugins:
       - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
     #  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
+defaults:
+  - scope:
+      path: "inkwell"
+    values:
+      layout: "inkwell"
 # Exclude these files from your production _site
 exclude:
   - Gemfile
