@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "To be understood"
+title: "Anlaşılamamalar"
 date: 2023-02-01
 ---
 
