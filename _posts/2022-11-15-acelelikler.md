@@ -2,6 +2,7 @@
 layout: post
 title: "Anlamsız Acelelikler"
 date: 2022-11-15
+language: TR
 ---
 
 # Anlamsız Acelelikler
