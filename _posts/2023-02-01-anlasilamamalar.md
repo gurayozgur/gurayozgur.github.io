@@ -2,6 +2,7 @@
 layout: post
 title: "Anlaşılamamalar"
 date: 2023-02-01
+language: TR
 ---
 
 # Anlaşılamamalar
