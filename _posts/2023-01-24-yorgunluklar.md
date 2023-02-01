@@ -2,6 +2,7 @@
 layout: post
 title: "Yorgunluklar"
 date: 2023-01-24
+language: TR
 ---
 
 # Yorgunluklar
