@@ -9,7 +9,7 @@ name: Guray Ozgur
 # description: the profile of an engineer, researcher and software developer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: images/circle_bw_crop.jpg
+avatar: https://avatars.githubusercontent.com/u/22301676?v=4
 
 #
 # Flags below are optional
@@ -54,6 +54,22 @@ url: "http://gurayozgur.github.io" # the base hostname & protocol for your site
 # !! You don't need to change any of the configuration flags below !!
 #
 
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+
+blog_name: # your blog must have a name for it to show up in the nav bar
+blog_description: 
+permalink: /blog/:year/:title/
+
+# Pagination
+pagination:
+  enabled: true
+
+# Comments
+disqus_shortname:  # put your disqus shortname
+# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+
 #permalink: /:title/
 permalink: /
 
@@ -79,7 +95,8 @@ sass:
 plugins:
       - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
     #  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
+    
+include: ['_pages']
 # Exclude these files from your production _site
 exclude:
   - Gemfile
