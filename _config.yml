@@ -58,8 +58,8 @@ url: "http://gurayozgur.github.io" # the base hostname & protocol for your site
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: # your blog must have a name for it to show up in the nav bar
-blog_description: 
+blog_name: Inkwell # your blog must have a name for it to show up in the nav bar
+blog_description:
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -95,7 +95,7 @@ sass:
 plugins:
       - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
     #  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-    
+
 include: ['_pages']
 # Exclude these files from your production _site
 exclude:
